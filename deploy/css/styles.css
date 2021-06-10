@@ -417,6 +417,7 @@ textarea {
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". svg-container .";
   height: 100vh;
+  background-color: #231F20;
 }
 @media (min-width: 768px) {
   #svg-container {
@@ -438,6 +439,16 @@ textarea {
   align-items: center;
   grid-area: svg-container;
 }
-#svg-container > div svg {
+#svg-container > div #svg-content {
+  position: relative;
+  width: 100%;
+}
+#svg-container > div #svg-content img {
+  position: absolute;
+  top: 28%;
+  right: 15.5%;
+  height: 10%;
+}
+#svg-container > div #svg-content svg {
   width: 100%;
 }
