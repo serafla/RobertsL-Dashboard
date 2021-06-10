@@ -23,7 +23,7 @@ mainTL.add(logoStartTL)
       .add(engineIconsTL, "one")
       .add(musicDirectionsTL, "one")
       .add(prndlTL)
-      .add(engineRevTL, "+=1");
+      .add(engineRevTL);
 
        
 
