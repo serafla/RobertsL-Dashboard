@@ -75,6 +75,14 @@
 		"oAP": "/dev/content/svg-container.html",
 		"oF": 0
 		},
+	"/dev/content/svg/background-video.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background-video.html",
+		"oF": 0
+		},
 	"/dev/content/svg/big-gas-tank.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -234,13 +242,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/logostart.js": {
+	"/dev/js/logoStart.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/logostart-min.js",
+		"oAP": "/dev/js/logoStart-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -285,6 +293,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/speedAccelerator-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/video-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/video-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/video.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/video-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -538,21 +568,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/videos/driving-city.mp4": {
+	"/videos/forest.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/videos/driving-city.mp4",
+		"oAP": "/videos/forest.mp4",
 		"oF": 0
 		},
-	"/videos/driving-forest.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/videos/forest.png": {
+		"ft": 32768,
+		"iS": 8150843,
 		"oA": 0,
-		"oAP": "/videos/driving-forest.mp4",
-		"oF": 0
+		"oAP": "/videos/forest.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [

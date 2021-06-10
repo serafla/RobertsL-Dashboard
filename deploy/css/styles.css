@@ -417,7 +417,7 @@ textarea {
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". svg-container .";
   height: 100vh;
-  background-color: #231F20;
+  background-color: #000;
 }
 @media (min-width: 768px) {
   #svg-container {
@@ -448,6 +448,11 @@ textarea {
   top: 28%;
   right: 15.5%;
   height: 10%;
+}
+#svg-container > div #svg-content video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
 }
 #svg-container > div #svg-content svg {
   width: 100%;

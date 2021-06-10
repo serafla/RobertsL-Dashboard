@@ -3,7 +3,7 @@
 	grid-template-columns: auto 80% auto;
 	grid-template-areas: ". svg-container .";
 	height: 100vh;
-	background-color: #231F20;
+	background-color: #000;
 
 	@include md {
 		grid-template-columns: auto 70% auto;
@@ -33,6 +33,12 @@
 				right: 15.5%;
 				
 				height: 10%;
+			}
+
+			video {
+				position: fixed;
+				min-width: 100%;
+				min-height: 100%;
 			}
 
 

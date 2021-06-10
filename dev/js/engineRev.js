@@ -8,8 +8,8 @@ gsap.registerPlugin(DrawSVGPlugin);
 gsap.set("#wipers-icon-green", {transformOrigin: "center"});
 
 
-engineRevTL.to("#PRNDL-park", {alpha: 0, duration: 0.25}, "drive")
-           .from("#PRNDL-drive", {alpha: 0, duration: 0.25}, "drive")
+engineRevTL.to("#PRNDL-park", {alpha: 0, duration: 0.25, delay: 0.5}, "drive")
+           .from("#PRNDL-drive", {alpha: 0, duration: 0.25, delay: 0.5}, "drive")
            .from("#green-path", {drawSVG: "100% 100%", duration: 2.5, ease: "power4.out"}, "motion-path")
            .from("#green-ray-1", { duration: 0.15, ease: "power4.out", alpha: 0}, "motion-path")
            .from("#green-ray-2", {duration: 0.15, ease: "power4.out", alpha: 0, delay: 0.2}, "motion-path")
@@ -43,6 +43,8 @@ engineRevTL.to("#PRNDL-park", {alpha: 0, duration: 0.25}, "drive")
            .from("#turn-right", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.20}, "directions")
            .from("#right-arrow", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.20}, "directions")
            .from("#directions-miles-2", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.35}, "directions")
+
+        //    .from("#driving-forest", {alpha: 0, duration: 1})
            
            
         
