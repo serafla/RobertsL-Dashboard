@@ -37,6 +37,12 @@ engineRevTL.to("#PRNDL-park", {alpha: 0, duration: 0.25}, "drive")
            .from("#wipers-icon", {alpha: 0, duration: 0.25}, "green")
            .from("#wipers-icon-green", { alpha: 0, duration: 0.25}, "green")
            .to("#wipers-icon-green", {scale: 1.25, duration: 0.25, repeat: 4, yoyo: true})
+           .to("#turn-left", {alpha: 0, duration: 0.5, translateY: -10}, "directions")
+           .to("#left-arrow", {alpha: 0, duration: 0.5, translateY: -10}, "directions")
+           .to("#directions-miles", {alpha: 0, duration: 0.5, translateY: -10}, "directions")
+           .from("#turn-right", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.20}, "directions")
+           .from("#right-arrow", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.20}, "directions")
+           .from("#directions-miles-2", {alpha: 0, duration: 0.5, translateY: 25, delay: 0.35}, "directions")
            
            
         

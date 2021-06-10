@@ -10,7 +10,7 @@ export let musicDirectionsTL = gsap.timeline();
 musicDirectionsTL.from("#music-bg",{alpha: 0, duration:0.5, x: 50}, "slide")
                  .from("#directions-bg",{alpha: 0, duration:0.5, x: -50}, "slide")
                  .from("#turn-left",{alpha: 0, duration:0.5, y: 30}, "up")
-                 .from("#left-arrow",{alpha: 0, duration:0.5, y: 30, delay: 0.15}, "up")
+                 .from("#left-arrow",{alpha: 0, duration:0.5, y: 30}, "up")
                  .from("#directions-miles",{alpha: 0, duration:0.5, y: 30, delay: 0.15}, "up")
                  .from("#artist-title",{alpha: 0, duration:0.5, y: 30}, "up")
                  .from("#music-player-outline", {alpha: 0, scaleX: 0.5, duration: 0.5}, "green-outline")
